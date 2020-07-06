@@ -8,7 +8,7 @@ Common Brightspace [stylelint](https://stylelint.io/) configs.
 
 ## Installation
 
-Install `stylelint-config`.
+Install the `stylelint-config` and `stylelint`.
 ```shell
 npm i @brightspace-ui/stylelint-config
 npm i stylelint
