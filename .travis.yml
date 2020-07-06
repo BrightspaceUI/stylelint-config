@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+deploy:
+  provider: npm
+  email: d2ltravisdeploy@d2l.com
+  api_key:
+    # d2l-travis-deploy: 8d2e...92e1
+    secure: ND8NsXdxOelOJryrDg57rm6Hkaar2S4/QXie0FqfO86uikSIvjQLhtH6ejJ2IZQ8mxzG+jzj+9LrNLAJmOM9NW2Nd84K/slu7auzTxaRm1Bq+JKFIzq9EjUL1Oz8fFv96iiTZ8smuzOE5Wk4vShxFya+KeJQaUrnlpiZZnvs3MuVq/ilri7jEbkyNljWiBOjSYzksR8NutYqdAx+bvhqw1Xg3NUTFpilIp+JWNHDIqmEP1C0qWH9/upP4tvMemLBwQjrpxyvqclmZ8sawN+luGu06MiMrwjrv8uAWRo6q6QJvU8aeDHiXRCz1R6vXtpKjnarRYKCFxfNDwDteCSZyjN6uHOG5obHCW1htc0N/Meq6kwEmJCkjs/kRzB7O55V1CK+5RyHCOQakX8TfVn6K5oNC1Gz85l/dqoIg0efscQXTadZnHrNHZuzrtSQs6i6CWiw4LUDgvIswXg2dMg+fH54L5er72TCxDvVsh68dfREih1KfBiTzbMQA/Kx1dMlbwSjWwjZGRTOEjX2ghYdoak4V3pfEAr8sVqhReM9cdCbIBnxLU6qQRkfP+hu0y0hOcodrrWW8qqCnjvfXVvBe5ok9NJBIKRAY/56cUGPxc3SvbuCG7opn6HGaJPztbOSXDb+ag2WEEkwM5mOiQDR3kKA6zEArIX4uPSqoKJIrA4=
+  on:
+    tags: true
+    repo: BrightspaceUI/stylelint-config
+    all_branches: true
