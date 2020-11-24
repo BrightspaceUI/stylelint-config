@@ -1,7 +1,6 @@
 # stylelint-config
 [![NPM version](https://img.shields.io/npm/v/@brightspace-ui/stylelint-config.svg)](https://www.npmjs.org/package/@brightspace-ui/stylelint-config)
 [![NPM downloads](https://img.shields.io/npm/dt/@brightspace-ui/stylelint-config.svg)](https://www.npmjs.com/package/@brightspace-ui/stylelint-config)
-[![Dependabot badge](https://flat.badgen.net/dependabot/BrightspaceUI/stylelint-config?icon=dependabot)](https://app.dependabot.com/)
 
 Common Brightspace [stylelint](https://stylelint.io/) configs.
 
