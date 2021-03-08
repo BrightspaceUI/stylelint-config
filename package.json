@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "stylelint": "^13",
-    "stylelint-config-recommended": "^3",
+    "stylelint-config-recommended": "^4",
     "stylelint-order": "^4"
   }
 }
