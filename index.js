@@ -69,7 +69,6 @@ module.exports = {
       "custom-properties",
       "declarations"
     ],
-    "order/properties-alphabetical-order": false,
     "property-case": "lower",
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
