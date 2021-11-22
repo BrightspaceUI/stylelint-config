@@ -97,6 +97,10 @@ module.exports = {
     {
       "files": ["**/*.js"],
       "customSyntax": "@stylelint/postcss-css-in-js"
+    },
+    {
+      "files": ["**/*.html"],
+      "customSyntax": "postcss-html"
     }
-	]
+  ]
 };
