@@ -93,5 +93,11 @@ module.exports = {
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "customSyntax": "@stylelint/postcss-css-in-js"
+    }
+	]
 };
