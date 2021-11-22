@@ -16,8 +16,11 @@
   "author": "D2L Corporation",
   "license": "Apache-2.0",
   "dependencies": {
-    "stylelint": "^13",
-    "stylelint-config-recommended": "^5",
-    "stylelint-order": "^4"
+    "@stylelint/postcss-css-in-js": "^0.37.2",
+    "postcss-html": "^1.2.0",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^14",
+    "stylelint-config-recommended": "^6",
+    "stylelint-order": "^5"
   }
 }
