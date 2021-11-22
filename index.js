@@ -76,7 +76,6 @@ module.exports = {
     "selector-attribute-operator-space-before": "never",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
-    "selector-class-pattern": "(^d2l-)|(^focus-visible$)",
     "selector-descendant-combinator-no-non-space": true,
     "selector-list-comma-space-before": "never",
     "selector-max-empty-lines": 0,
