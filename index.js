@@ -43,7 +43,9 @@ module.exports = {
     "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",
     "function-max-empty-lines": 0,
-    "function-name-case": "lower",
+    "function-name-case": ["lower", {
+        "ignoreFunctions": ["${unsafeCSS"]
+    }],
     "function-parentheses-newline-inside": "always-multi-line",
     "function-parentheses-space-inside": "never-single-line",
     "function-whitespace-after": "always",
