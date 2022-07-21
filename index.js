@@ -85,7 +85,7 @@ module.exports = {
 		"selector-pseudo-class-parentheses-space-inside": "never",
 		"selector-pseudo-element-case": "lower",
 		"selector-pseudo-element-colon-notation": "double",
-		"selector-pseudo-class-disallowed-list": ["host"],
+		"selector-pseudo-class-disallowed-list": ["host-context"],
 		"selector-type-case": "lower",
 		"selector-type-no-unknown": [true, {
 			"ignore": ["custom-elements"]
