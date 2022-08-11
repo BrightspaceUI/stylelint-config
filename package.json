@@ -20,7 +20,7 @@
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
     "stylelint": "^14",
-    "stylelint-config-recommended": "^8",
+    "stylelint-config-recommended": "^9",
     "stylelint-order": "^5"
   }
 }
