@@ -19,8 +19,8 @@
     "@stylelint/postcss-css-in-js": "^0.38",
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
-    "stylelint": "^14",
-    "stylelint-config-recommended": "^9",
+    "stylelint": "^15",
+    "stylelint-config-recommended": "^12",
     "stylelint-order": "^6"
   }
 }
