@@ -1,6 +1,6 @@
 {
   "name": "@brightspace-ui/stylelint-config",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Common Brightspace stylelint configs.",
   "repository": "https://github.com/BrightspaceUI/stylelint-config.git",
   "publishConfig": {
@@ -19,8 +19,8 @@
     "@stylelint/postcss-css-in-js": "^0.38",
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
-    "stylelint": "^14",
-    "stylelint-config-recommended": "^9",
+    "stylelint": "^15",
+    "stylelint-config-recommended": "^12",
     "stylelint-order": "^6"
   }
 }
