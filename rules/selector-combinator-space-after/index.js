@@ -5,7 +5,7 @@ const selectorCombinatorSpaceChecker = require('stylelint/lib/rules/selectorComb
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 
-const ruleName = 'd2l-selector-combinator-space-after';
+const ruleName = 'd2l/selector-combinator-space-after';
 
 const messages = ruleMessages(ruleName, {
 	expectedAfter: (combinator) => `Expected single space after "${combinator}"`,
@@ -14,7 +14,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/selector-combinator-space-after',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

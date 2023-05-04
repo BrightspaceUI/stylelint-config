@@ -8,7 +8,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const valueParser = require('postcss-value-parser');
 
-const ruleName = 'd2l-unit-case';
+const ruleName = 'd2l/unit-case';
 
 const messages = ruleMessages(ruleName, {
 	expected: (actual, expected) => `Expected "${actual}" to be "${expected}"`,
@@ -16,7 +16,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/unit-case',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

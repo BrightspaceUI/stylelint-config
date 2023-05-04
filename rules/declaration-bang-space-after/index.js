@@ -8,7 +8,7 @@ const setDeclarationValue = require('stylelint/lib/utils/setDeclarationValue');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 
-const ruleName = 'd2l-declaration-bang-space-after';
+const ruleName = 'd2l/declaration-bang-space-after';
 
 const messages = ruleMessages(ruleName, {
 	expectedAfter: () => 'Expected single space after "!"',
@@ -17,7 +17,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/declaration-bang-space-after',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

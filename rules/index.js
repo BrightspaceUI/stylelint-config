@@ -1,6 +1,6 @@
 const { createPlugin } = require('stylelint');
 
-const rulesPlugins = [
+const ruleNames = [
 	'at-rule-name-case',
 	'at-rule-name-space-after',
 	'at-rule-semicolon-newline-after',
@@ -61,6 +61,6 @@ const rulesPlugins = [
 	'value-list-max-empty-lines'
 ];
 
-module.exports = rulesPlugins.map(name => {
+module.exports = ruleNames.map(name => {
 	return createPlugin(`d2l/${name}`, require(`./${name}`));
 });

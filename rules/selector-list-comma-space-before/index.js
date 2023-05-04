@@ -5,7 +5,7 @@ const selectorListCommaWhitespaceChecker = require('stylelint/lib/rules/selector
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 
-const ruleName = 'd2l-selector-list-comma-space-before';
+const ruleName = 'd2l/selector-list-comma-space-before';
 
 const messages = ruleMessages(ruleName, {
 	expectedBefore: () => 'Expected single space before ","',
@@ -16,7 +16,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/selector-list-comma-space-before',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

@@ -9,7 +9,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const { isAtRule } = require('stylelint/lib/utils/typeGuards');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-number-leading-zero';
+const ruleName = 'd2l/number-leading-zero';
 
 const messages = ruleMessages(ruleName, {
 	expected: 'Expected a leading zero',
@@ -18,7 +18,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/number-leading-zero',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

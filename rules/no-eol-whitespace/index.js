@@ -10,7 +10,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const { isAtRule, isComment, isDeclaration, isRule } = require('stylelint/lib/utils/typeGuards');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-no-eol-whitespace';
+const ruleName = 'd2l/no-eol-whitespace';
 
 const messages = ruleMessages(ruleName, {
 	rejected: 'Unexpected whitespace at end of line',
@@ -18,7 +18,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/no-eol-whitespace',
-	fixable: true,
+	fixable: true
 };
 
 const whitespacesToReject = new Set([' ', '\t']);

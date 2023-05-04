@@ -10,14 +10,14 @@ const validateOptions = require('stylelint/lib/utils/validateOptions');
 const { isAtRule, isDeclaration, isRoot, isRule } = require('stylelint/lib/utils/typeGuards');
 const { isBoolean, isNumber, isString, assertString } = require('stylelint/lib/utils/validateTypes');
 
-const ruleName = 'd2l-indentation';
+const ruleName = 'd2l/indentation';
 const messages = ruleMessages(ruleName, {
 	expected: (x) => `Expected indentation of ${x}`,
 });
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/indentation',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

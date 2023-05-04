@@ -11,7 +11,7 @@ const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 const { isRegExp, isString } = require('stylelint/lib/utils/validateTypes');
 
-const ruleName = 'd2l-block-opening-brace-space-before';
+const ruleName = 'd2l/block-opening-brace-space-before';
 
 const messages = ruleMessages(ruleName, {
 	expectedBefore: () => 'Expected single space before "{"',
@@ -24,7 +24,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/block-opening-brace-space-before',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

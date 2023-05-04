@@ -5,7 +5,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 
-const ruleName = 'd2l-at-rule-name-space-after';
+const ruleName = 'd2l/at-rule-name-space-after';
 
 const messages = ruleMessages(ruleName, {
 	expectedAfter: (name) => `Expected single space after at-rule name "${name}"`,
@@ -13,7 +13,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/at-rule-name-space-after',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

@@ -10,7 +10,7 @@ const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 const { isString } = require('stylelint/lib/utils/validateTypes');
 
-const ruleName = 'd2l-block-closing-brace-newline-after';
+const ruleName = 'd2l/block-closing-brace-newline-after';
 
 const messages = ruleMessages(ruleName, {
 	expectedAfter: () => 'Expected newline after "}"',
@@ -22,7 +22,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/block-closing-brace-newline-after',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

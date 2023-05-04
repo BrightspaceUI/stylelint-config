@@ -7,7 +7,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const { isAtRule } = require('stylelint/lib/utils/typeGuards');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-declaration-block-trailing-semicolon';
+const ruleName = 'd2l/declaration-block-trailing-semicolon';
 
 const messages = ruleMessages(ruleName, {
 	expected: 'Expected a trailing semicolon',
@@ -16,7 +16,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/declaration-block-trailing-semicolon',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

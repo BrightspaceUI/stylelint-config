@@ -6,7 +6,7 @@ const report = require('stylelint/lib/utils/report');
 const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-selector-descendant-combinator-no-non-space';
+const ruleName = 'd2l/selector-descendant-combinator-no-non-space';
 
 const messages = ruleMessages(ruleName, {
 	rejected: (nonSpaceCharacter) => `Unexpected "${nonSpaceCharacter}"`,
@@ -14,7 +14,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/selector-descendant-combinator-no-non-space',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

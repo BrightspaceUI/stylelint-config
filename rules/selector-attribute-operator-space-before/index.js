@@ -5,7 +5,7 @@ const selectorAttributeOperatorSpaceChecker = require('stylelint/lib/rules/selec
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 
-const ruleName = 'd2l-selector-attribute-operator-space-before';
+const ruleName = 'd2l/selector-attribute-operator-space-before';
 
 const messages = ruleMessages(ruleName, {
 	expectedBefore: (operator) => `Expected single space before "${operator}"`,
@@ -14,7 +14,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/selector-attribute-operator-space-before',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

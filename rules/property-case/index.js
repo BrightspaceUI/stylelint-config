@@ -9,7 +9,7 @@ const optionsMatches = require('stylelint/lib/utils/optionsMatches');
 const { isRegExp, isString } = require('stylelint/lib/utils/validateTypes');
 const { isRule } = require('stylelint/lib/utils/typeGuards');
 
-const ruleName = 'd2l-property-case';
+const ruleName = 'd2l/property-case';
 
 const messages = ruleMessages(ruleName, {
 	expected: (actual, expected) => `Expected "${actual}" to be "${expected}"`,
@@ -17,7 +17,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/property-case',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

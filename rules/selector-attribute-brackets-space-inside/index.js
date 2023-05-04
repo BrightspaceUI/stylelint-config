@@ -7,7 +7,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const styleSearch = require('style-search');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-selector-attribute-brackets-space-inside';
+const ruleName = 'd2l/selector-attribute-brackets-space-inside';
 
 const messages = ruleMessages(ruleName, {
 	expectedOpening: 'Expected single space after "["',
@@ -18,7 +18,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/selector-attribute-brackets-space-inside',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

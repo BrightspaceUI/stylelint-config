@@ -10,7 +10,7 @@ const setDeclarationValue = require('stylelint/lib/utils/setDeclarationValue');
 const styleSearch = require('style-search');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-function-whitespace-after';
+const ruleName = 'd2l/function-whitespace-after';
 
 const messages = ruleMessages(ruleName, {
 	expected: 'Expected whitespace after ")"',
@@ -19,7 +19,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/function-whitespace-after',
-	fixable: true,
+	fixable: true
 };
 
 const ACCEPTABLE_AFTER_CLOSING_PAREN = new Set([')', ',', '}', ':', '/', undefined]);

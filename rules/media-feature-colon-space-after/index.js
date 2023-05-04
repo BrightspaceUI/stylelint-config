@@ -6,7 +6,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const whitespaceChecker = require('stylelint/lib/utils/whitespaceChecker');
 
-const ruleName = 'd2l-media-feature-colon-space-after';
+const ruleName = 'd2l/media-feature-colon-space-after';
 
 const messages = ruleMessages(ruleName, {
 	expectedAfter: () => 'Expected single space after ":"',
@@ -15,7 +15,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/media-feature-colon-space-after',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

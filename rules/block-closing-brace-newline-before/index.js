@@ -8,7 +8,7 @@ const report = require('stylelint/lib/utils/report');
 const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-block-closing-brace-newline-before';
+const ruleName = 'd2l/block-closing-brace-newline-before';
 
 const messages = ruleMessages(ruleName, {
 	expectedBefore: 'Expected newline before "}"',
@@ -18,7 +18,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/block-closing-brace-newline-before',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

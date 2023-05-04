@@ -8,7 +8,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const transformSelector = require('stylelint/lib/utils/transformSelector');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-selector-pseudo-element-case';
+const ruleName = 'd2l/selector-pseudo-element-case';
 
 const messages = ruleMessages(ruleName, {
 	expected: (actual, expected) => `Expected "${actual}" to be "${expected}"`,
@@ -16,7 +16,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/selector-pseudo-element-case',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

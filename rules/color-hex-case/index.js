@@ -9,7 +9,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const setDeclarationValue = require('stylelint/lib/utils/setDeclarationValue');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-color-hex-case';
+const ruleName = 'd2l/color-hex-case';
 
 const messages = ruleMessages(ruleName, {
 	expected: (actual, expected) => `Expected "${actual}" to be "${expected}"`,
@@ -17,7 +17,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/color-hex-case',
-	fixable: true,
+	fixable: true
 };
 
 const HEX = /^#[0-9A-Za-z]+/;

@@ -10,7 +10,7 @@ const setDeclarationValue = require('stylelint/lib/utils/setDeclarationValue');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const valueParser = require('postcss-value-parser');
 
-const ruleName = 'd2l-function-parentheses-newline-inside';
+const ruleName = 'd2l/function-parentheses-newline-inside';
 
 const messages = ruleMessages(ruleName, {
 	expectedOpening: 'Expected newline after "("',
@@ -23,7 +23,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/function-parentheses-newline-inside',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

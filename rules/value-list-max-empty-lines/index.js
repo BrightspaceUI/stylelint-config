@@ -7,7 +7,7 @@ const setDeclarationValue = require('stylelint/lib/utils/setDeclarationValue');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const { isNumber } = require('stylelint/lib/utils/validateTypes');
 
-const ruleName = 'd2l-value-list-max-empty-lines';
+const ruleName = 'd2l/value-list-max-empty-lines';
 
 const messages = ruleMessages(ruleName, {
 	expected: (max) => `Expected no more than ${max} empty ${max === 1 ? 'line' : 'lines'}`,
@@ -15,7 +15,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/value-list-max-empty-lines',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

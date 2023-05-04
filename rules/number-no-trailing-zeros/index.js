@@ -9,7 +9,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const { isAtRule } = require('stylelint/lib/utils/typeGuards');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 
-const ruleName = 'd2l-number-no-trailing-zeros';
+const ruleName = 'd2l/number-no-trailing-zeros';
 
 const messages = ruleMessages(ruleName, {
 	rejected: 'Unexpected trailing zero(s)',
@@ -17,7 +17,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/number-no-trailing-zeros',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

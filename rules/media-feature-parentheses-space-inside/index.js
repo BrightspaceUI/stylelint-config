@@ -6,7 +6,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const valueParser = require('postcss-value-parser');
 
-const ruleName = 'd2l-media-feature-parentheses-space-inside';
+const ruleName = 'd2l/media-feature-parentheses-space-inside';
 
 const messages = ruleMessages(ruleName, {
 	expectedOpening: 'Expected single space after "("',
@@ -17,7 +17,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/media-feature-parentheses-space-inside',
-	fixable: true,
+	fixable: true
 };
 
 /** @type {import('stylelint').Rule} */

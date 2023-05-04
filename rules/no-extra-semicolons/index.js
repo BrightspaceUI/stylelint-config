@@ -8,7 +8,7 @@ const styleSearch = require('style-search');
 const validateOptions = require('stylelint/lib/utils/validateOptions');
 const { isAtRule } = require('stylelint/lib/utils/typeGuards');
 
-const ruleName = 'd2l-no-extra-semicolons';
+const ruleName = 'd2l/no-extra-semicolons';
 
 const messages = ruleMessages(ruleName, {
 	rejected: 'Unexpected extra semicolon',
@@ -16,7 +16,7 @@ const messages = ruleMessages(ruleName, {
 
 const meta = {
 	url: 'https://stylelint.io/user-guide/rules/no-extra-semicolons',
-	fixable: true,
+	fixable: true
 };
 
 /**
