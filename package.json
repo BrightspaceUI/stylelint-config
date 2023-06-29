@@ -22,6 +22,6 @@
     "stylelint": "^15",
     "stylelint-config-recommended": "^12",
     "stylelint-order": "^6",
-    "stylelint-stylistic": "^0.4.2"
+    "stylelint-stylistic": "^0.4"
   }
 }
