@@ -64,6 +64,7 @@ module.exports = {
 		"stylistic/media-query-list-comma-newline-after": "always-multi-line",
 		"stylistic/media-query-list-comma-space-after": "always-single-line",
 		"stylistic/media-query-list-comma-space-before": "never",
+		"media-query-no-invalid": null,
 		"no-descending-specificity": null,
 		"stylistic/no-eol-whitespace": [true, {
 			"ignore": ["empty-lines"]
