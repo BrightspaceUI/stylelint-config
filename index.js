@@ -1,6 +1,4 @@
-"use strict";
-
-module.exports = {
+export default {
 	"extends": [
 		"stylelint-config-recommended",
 		"@stylistic/stylelint-config"
@@ -118,4 +116,4 @@ module.exports = {
 			"customSyntax": "postcss-html"
 		}
 	]
-};
+}

@@ -7,6 +7,7 @@
     "access": "public"
   },
   "main": "index.js",
+  "type": "module",
   "files": [
     "index.js"
   ],
@@ -17,8 +18,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@stylelint/postcss-css-in-js": "^0.38",
-    "@stylistic/stylelint-config": "^1.0.1",
-    "@stylistic/stylelint-plugin": "^2.0.0",
+    "@stylistic/stylelint-config": "^1",
+    "@stylistic/stylelint-plugin": "^2",
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
     "stylelint-config-recommended": "^14",
