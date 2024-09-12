@@ -1,6 +1,6 @@
 {
   "name": "@brightspace-ui/stylelint-config",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Common Brightspace stylelint configs.",
   "repository": "https://github.com/BrightspaceUI/stylelint-config.git",
   "publishConfig": {
