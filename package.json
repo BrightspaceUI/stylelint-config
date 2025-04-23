@@ -23,7 +23,7 @@
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
     "stylelint-config-recommended": "^16",
-    "stylelint-order": "^6"
+    "stylelint-order": "^7"
   },
   "peerDependencies": {
     "stylelint": "^16"
