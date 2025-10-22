@@ -72,6 +72,8 @@ export default {
 		"@stylistic/media-query-list-comma-space-before": "never",
 		"media-query-no-invalid": null,
 		"no-descending-specificity": null,
+		"no-invalid-position-declaration": null,
+		"property-no-deprecated": [true, { "ignoreProperties": ["clip"] }],
 		"@stylistic/no-eol-whitespace": [true, {
 			"ignore": ["empty-lines"]
 		}],
