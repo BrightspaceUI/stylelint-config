@@ -72,8 +72,8 @@ export default {
 		"@stylistic/media-query-list-comma-space-before": "never",
 		"media-query-no-invalid": null,
 		"no-descending-specificity": null,
-		"no-invalid-position-declaration": null,
-		"property-no-deprecated": [true, { "ignoreProperties": ["clip"] }],
+		"no-invalid-position-declaration": null, // CSS templates that contain top-level declarations would throw errors
+		"property-no-deprecated": [true, { "ignoreProperties": ["clip"] }], // 'clip' can be replaced by 'clip-path' but some features are still not supported on legacy browsers(e.g. https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/rect#browser_compatibility)
 		"@stylistic/no-eol-whitespace": [true, {
 			"ignore": ["empty-lines"]
 		}],
