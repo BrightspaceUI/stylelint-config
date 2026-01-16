@@ -22,7 +22,7 @@
     "@stylistic/stylelint-plugin": "^4",
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
-    "stylelint-config-recommended": "^17",
+    "stylelint-config-recommended": "^18",
     "stylelint-order": "^7"
   },
   "peerDependencies": {
