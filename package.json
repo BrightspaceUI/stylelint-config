@@ -18,7 +18,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@stylelint/postcss-css-in-js": "^0.38",
-    "@stylistic/stylelint-config": "^3",
+    "@stylistic/stylelint-config": "^4",
     "@stylistic/stylelint-plugin": "^4",
     "postcss-html": "^1",
     "postcss-syntax": "^0.36",
