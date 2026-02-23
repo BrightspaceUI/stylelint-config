@@ -1,11 +1,10 @@
-# Basic dependabot.yml file with minimum configuration for npm
-
 version: 2
 updates:
-  # Enable version updates for npm
   - package-ecosystem: "npm"
-    # Look for `package.json` and `lock` files in the `root` directory
     directory: "/"
-    # Check the npm registry for updates every day (weekdays)
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    cooldown:
+      # update-package-lock workflow handles minor/patch updates - delay for a few weeks to give time to handle breaking change in those PRs
+      default-days: 25
+      semver-major-days: 5
