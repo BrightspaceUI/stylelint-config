@@ -31,23 +31,23 @@
 	padding: var(--d2l-space-300);
 }
 
-.sample-card__title {
+.sample-card-title {
 	font-size: 1rem;
 	font-weight: 600;
 	margin: 0;
 }
 
-.sample-card__description {
+.sample-card-description {
 	margin: 0;
 }
 
-.sample-card__actions {
+.sample-card-actions {
 	display: flex;
 	gap: var(--d2l-space-100);
 	margin-top: var(--d2l-space-200);
 }
 
-.sample-card__button {
+.sample-card-button {
 	background-color: #006fbf;
 	border: 0;
 	border-radius: var(--d2l-border-radius);
@@ -56,12 +56,12 @@
 	padding: 0.5rem 0.75rem;
 }
 
-.sample-card__button:hover,
-.sample-card__button:focus-visible {
+.sample-card-button:hover,
+.sample-card-button:focus-visible {
 	background-color: #0059a3;
 }
 
-.sample-card__button::before {
+.sample-card-button::before {
 	content: "→";
 	margin-right: var(--d2l-space-100);
 }
