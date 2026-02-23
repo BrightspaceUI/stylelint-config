@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Stylelint Typical HTML Fixture</title>
+		<style>
+			:root {
+				--d2l-color-background: #f5f6f9;
+				--d2l-color-border: #d9dce1;
+				--d2l-color-text: #202124;
+				--d2l-color-text-muted: #565a5c;
+				--d2l-space-100: 0.25rem;
+				--d2l-space-200: 0.5rem;
+				--d2l-space-300: 0.75rem;
+				--d2l-space-400: 1rem;
+			}
+
+			.page {
+				background-color: var(--d2l-color-background);
+				color: var(--d2l-color-text);
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: var(--d2l-space-400);
+			}
+
+			.card {
+				background-color: #ffffff;
+				border: 1px solid var(--d2l-color-border);
+				border-radius: 0.375rem;
+				max-width: 32rem;
+				padding: var(--d2l-space-400);
+			}
+
+			.card__title {
+				font-size: 1.125rem;
+				font-weight: 600;
+				margin: 0 0 var(--d2l-space-200);
+			}
+
+			.card__description {
+				color: var(--d2l-color-text-muted);
+				margin: 0 0 var(--d2l-space-300);
+			}
+
+			.card__list {
+				margin: 0;
+				padding-left: 1.25rem;
+			}
+
+			.card__list-item + .card__list-item {
+				margin-top: var(--d2l-space-100);
+			}
+
+			.card__list-item::marker {
+				color: #006fbf;
+			}
+
+			@media screen and (width <= 40rem) {
+				.page {
+					padding: var(--d2l-space-200);
+				}
+
+				.card {
+					padding: var(--d2l-space-300);
+				}
+			}
+		</style>
+	</head>
+	<body class="page">
+		<main class="card">
+			<h1 class="card__title">Typical HTML Fixture</h1>
+			<p class="card__description">This file is used to validate stylelint parsing and formatting for embedded CSS.</p>
+			<ul class="card__list">
+				<li class="card__list-item">Semantic HTML structure</li>
+				<li class="card__list-item">BEM-style class naming</li>
+				<li class="card__list-item">Responsive media query</li>
+			</ul>
+		</main>
+	</body>
+</html>
