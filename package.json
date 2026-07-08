@@ -4,7 +4,8 @@
   "description": "Common Brightspace stylelint configs.",
   "repository": "https://github.com/BrightspaceUI/stylelint-config.git",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "main": "index.js",
   "type": "module",
