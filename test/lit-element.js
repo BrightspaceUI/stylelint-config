@@ -36,7 +36,7 @@ class TestStylelintElement extends LitElement {
 
 		.value::before {
 			content: "●";
-			margin-right: 0.25rem;
+			margin-inline-end: 0.25rem;
 		}
 	`;
 

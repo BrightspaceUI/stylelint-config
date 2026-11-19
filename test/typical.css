@@ -63,7 +63,7 @@
 
 .sample-card-button::before {
 	content: "→";
-	margin-right: var(--d2l-space-100);
+	margin-inline-end: var(--d2l-space-100);
 }
 
 @media screen and (width <= 48rem) {
