@@ -3,6 +3,12 @@ export default {
 		"stylelint-config-recommended",
 		"@stylistic/stylelint-config"
 	],
+	"languageOptions": {
+		"directionality": {
+			"block": "top-to-bottom",
+			"inline": "left-to-right"
+		}
+	},
 	"plugins": [
 		"stylelint-order",
 		"@stylistic/stylelint-plugin"
@@ -30,6 +36,7 @@ export default {
 		}],
 		"custom-property-empty-line-before": ["always", {
 			"except": [
+				"after-comment",
 				"after-custom-property",
 				"first-nested"
 			],
@@ -43,7 +50,7 @@ export default {
 		"@stylistic/declaration-block-semicolon-newline-after": "always-multi-line",
 		"@stylistic/declaration-block-semicolon-space-after": "always-single-line",
 		"@stylistic/declaration-block-semicolon-space-before": "never",
-		"declaration-block-single-line-max-declarations": 3,
+		"@stylistic/declaration-block-single-line-max-declarations": 3,
 		"@stylistic/declaration-block-trailing-semicolon": "always",
 		"@stylistic/declaration-colon-newline-after": "always-multi-line",
 		"@stylistic/declaration-colon-space-after": "always-single-line",
@@ -73,10 +80,35 @@ export default {
 		"media-query-no-invalid": null,
 		"no-descending-specificity": null,
 		"no-invalid-position-declaration": null, // CSS templates that contain top-level declarations would throw errors
+		"property-layout-mappings": [
+			"flow-relative",
+			{ "ignoreProperties": [
+				"/^border-bottom/",
+				"/^border-top/",
+				"bottom",
+				"height",
+				"margin",
+				"margin-bottom",
+				"margin-top",
+				"max-height",
+				"max-width",
+				"min-height",
+				"min-width",
+				"overflow",
+				"overflow-x",
+				"overflow-y",
+				"padding",
+				"padding-bottom",
+				"padding-top",
+				"top",
+				"width"
+			] }
+  		],
 		"property-no-deprecated": [true, { "ignoreProperties": ["clip"] }], // 'clip' can be replaced by 'clip-path' but some features are still not supported on legacy browsers(e.g. https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/rect#browser_compatibility)
 		"@stylistic/no-eol-whitespace": [true, {
 			"ignore": ["empty-lines"]
 		}],
+		"@stylistic/no-multiple-whitespaces": true,
 		"@stylistic/number-leading-zero": "always",
 		"@stylistic/number-no-trailing-zeros": true,
 		"order/order": [
@@ -103,6 +135,7 @@ export default {
 			"ignore": ["custom-elements"]
 		}],
 		"@stylistic/unit-case": "lower",
+		"value-keyword-layout-mappings": "flow-relative",
 		"@stylistic/value-list-comma-newline-after": "always-multi-line",
 		"@stylistic/value-list-comma-space-after": "always-single-line",
 		"@stylistic/value-list-comma-space-before": "never",

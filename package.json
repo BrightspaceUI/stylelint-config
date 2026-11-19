@@ -19,14 +19,14 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@stylelint/postcss-css-in-js": "^0.38",
-    "@stylistic/stylelint-config": "^5",
-    "@stylistic/stylelint-plugin": "^5",
+    "@stylistic/stylelint-config": "^6",
+    "@stylistic/stylelint-plugin": "^6",
     "postcss-html": "^2",
     "postcss-syntax": "^0.36",
-    "stylelint-config-recommended": "^18",
+    "stylelint-config-recommended": "^19",
     "stylelint-order": "^8"
   },
   "peerDependencies": {
-    "stylelint": "^17"
+    "stylelint": "^18"
   }
 }
